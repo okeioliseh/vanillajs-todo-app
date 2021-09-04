@@ -1,0 +1,26 @@
+body{
+    background-color:deepskyblue;
+    z-index:-1;
+    user-select:none;
+}
+#content{
+    background-color:white;
+    width:500px;
+    z-index:1;
+    user-select:none;
+}
+.todoitem{
+    background-color:cyan;
+}
+.completetodo{
+    background-color:forestgreen;
+    color:white;
+}
+.checkbox{
+    float:left;
+}
+.clearbtn{
+    float:right;
+    background-color:cyan;
+    border:none;
+}
