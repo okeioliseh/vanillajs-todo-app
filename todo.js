@@ -8,7 +8,7 @@ const addToList = ()=>{
     //use the array method ".push" to add new items...
     listItems.push(inputVal);
     var list = document.createTextNode(listItems[x]);
-    //next step..
+    //next step.....
     const newItem = document.createElement("p");
     const newList = newItem.appendChild(list);
     content.appendChild(newItem);
